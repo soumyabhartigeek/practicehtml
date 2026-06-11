@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+.invoice{
+    width:900px;
+    margin:20px auto;
+    border:2px solid #000;
+}
+
+.header{
+    padding:20px;
+    min-height:140px;
+    border-bottom:2px solid #000;
+}
+
+.header h1{
+    margin-bottom:10px;
+}
+
+.info-table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.info-table > tbody > tr > td{
+    border:2px solid #000;
+    padding:15px;
+    vertical-align:top;
+}
+
+.invoice-details{
+    width:100%;
+}
+
+.invoice-details td{
+    border:none;
+    padding:6px 0;
+}
+
+.title{
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.bill-section{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.bill-section td,
+.bill-section th{
+    border:2px solid #000;
+    padding:15px;
+}
+
+.bill-title{
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.items{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.items th,
+.items td{
+    border:2px solid #000;
+    padding:12px;
+}
+
+.items th{
+    text-align:center;
+}
+
+.subtotal{
+    text-align:center;
+    font-weight:bold;
+}
+
+.amount{
+    font-weight:bold;
+    text-align:right;
+}
+
+.footer{
+    height:220px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:48px;
+    font-weight:bold;
+}
